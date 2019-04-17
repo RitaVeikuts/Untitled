@@ -13,6 +13,12 @@ public class Main {
  person1.doWork();
  person2.doWork();
 
+/* person1.doWork("Desk");
+ person2.doWork("Hammer");*/
+ System.out.println(person1 instanceof Person);
+ System.out.println(person2 instanceof FactoryWorker);
+ System.out.println(person1 instanceof Object);
+
 
 
     }
