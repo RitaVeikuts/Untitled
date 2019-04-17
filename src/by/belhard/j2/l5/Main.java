@@ -12,7 +12,7 @@ public class Main {
         Person person2 = new Person();
         person1.doWork();
         person2.doWork();
-
+        System.out.println();
 /* person1.doWork("Desk");
  person2.doWork("Hammer");*/
         System.out.println(person1 instanceof Person);
