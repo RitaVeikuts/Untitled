@@ -9,7 +9,9 @@ public class Main {
  person1.doWork();
  worker.doWork();*/
  Person person1 = new FactoryWorker();
+ Person person2= new Person();
  person1.doWork();
+ person2.doWork();
 
 
 
