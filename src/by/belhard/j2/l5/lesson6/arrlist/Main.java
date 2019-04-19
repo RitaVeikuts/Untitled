@@ -34,9 +34,15 @@ public class Main {
         set.add("three");
         set.add("one");
 
-       /* Iterator<String > iterator = set.iterator();
-        if (set.equals("two")) set.remove(s);*/
+        // set.removeIf(next ->next.equals("two")); та же хрень, что и ниже
 
+       Iterator<String > iterator = set.iterator();
+
+       while (iterator.hasNext()) {
+           String next = iterator.next();
+           if (next.equals("two"))
+               iterator.remove();
+       }
 
 
         for  (String s: set) {
