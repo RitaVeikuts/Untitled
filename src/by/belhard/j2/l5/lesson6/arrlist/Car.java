@@ -20,5 +20,7 @@ public class Car {
 
     public String toString() {
         return title;
-        }
+        System.out.println("d");
+    }
+
 }
