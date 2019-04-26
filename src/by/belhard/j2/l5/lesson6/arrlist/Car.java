@@ -1,4 +1,4 @@
-package by.belhard.j2.l5.lesson6.arrlist;
+/*package by.belhard.j2.l5.lesson6.arrlist;
 
 public class Car {
 
@@ -18,9 +18,10 @@ public class Car {
         if (this==o) return true;
         if (o==null || getClass()!)*/
 
-    public String toString() {
+    /*public String toString() {
         return title;
         System.out.println("d");
     }
 
 }
+*/

@@ -1,4 +1,4 @@
-package by.belhard.j2.l5.lesson6.arrlist;
+/*package by.belhard.j2.l5.lesson6.arrlist;
 
 import java.sql.SQLOutput;
 import java.util.*;
@@ -49,7 +49,7 @@ public class Main {
 
         System.out.println(set);*/
 
-        Map<String, Car> map = new HashMap<>();
+     /*   Map<String, Car> map = new HashMap<>();
         map.put("audi", new Car("audi"));
         map.put("opel", new Car("opel corsa"));
         map.put("zaz", new Car("mersedes"));
@@ -67,3 +67,4 @@ public class Main {
         System.out.println("opel = " + map.get("opel"));
     }
 }
+*/

@@ -19,6 +19,7 @@ public class Main {
             s.append("line: ").append(reader.readLine()).append("\n");
                     }
 
+        System.out.println();
         writer.write(s.toString());
         writer.flush();
     }
