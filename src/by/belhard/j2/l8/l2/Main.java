@@ -17,13 +17,7 @@ public class Main {
         while (reader.ready()) {
 
             s.append("line: ").append(reader.readLine()).append("\n");
-
-
-            /*s = reader.readLine();
-            System.out.println("line: " + s);*/
-
-
-        }
+                    }
 
         writer.write(s.toString());
         writer.flush();
