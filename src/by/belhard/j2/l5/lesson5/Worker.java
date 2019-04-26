@@ -1,6 +1,6 @@
-package by.belhard.j2.l5;
+package by.belhard.j2.l5.lesson5;
 
-import by.belhard.j2.l5.Person;
+import by.belhard.j2.l5.lesson5.Person;
 
 public class Worker extends Person {
     public int a = 5;
